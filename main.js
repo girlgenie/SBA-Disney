@@ -25,3 +25,5 @@ const bodyElem = document.querySelector('body');
 bodyElem.setAttribute('class', 'container'); 
 
 // add event listener to text for mouseover
+const hoverOver =document.getElementsByClassName('princess')
+hoverOver.addEventListener('hover',() => "hovered over");
