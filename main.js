@@ -40,11 +40,43 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+const btn = document.querySelector('#add-input-btn')
+console.log(btn)
+// ================== ALL BAD CODE DOESNT WORK BELOW HERE==========================
     // Add Jasmine to the list of Disney princesses
-    const disneyPrincessList = document.getElementById('disney-princess');
-    const newPrincess = document.createElement('li');
-    const newPrincessInput = document.createElement('li');
-    newPrincessInput.textContent = 
-    newPrincess.textContent = 'Jasmine';
-    disneyPrincessList.appendChild(newPrincess);
+    // const disneyPrincessList = document.getElementById('disney-princess');
+    // const newPrincess = document.createElement('li');
+    // const newPrincessInput = document.createElement('li');
+    // newPrincessInput.textContent = 
+    // newPrincess.textContent = 'Jasmine';
+    // disneyPrincessList.appendChild(newPrincess);
 });
+// document.addEventListener('DOMContentLoaded', function() {
+//     // Select the button element
+//     const addButton = document.getElementById('add-input-btn');
+    
+//     // Add event listener to the button
+//     addButton.addEventListener('click', function() {
+//         // Create a new input element
+//         const newInput = document.createElement('input');
+//         newInput.type = 'text'; // Set input type
+        
+//         // Append the new input element to the container
+//         const inputContainer = document.getElementById('input-container');
+//         inputContainer.appendChild(newInput);
+//     });
+// });
+
+// const addPrincessbtn = document.querySelector('#add-princess'); 
+
+// attempting to iterate over princess list
+// const disneyPrincessList = document.querySelector('.princesses');
+// for (let princesses of disneyPrincessList) {
+//     console.log(princesses);
+//   }
+// console.log(disneyPrincessList)
+    // const newPrincess = document.createElement('li');
+    // const newPrincessInput = document.createElement('li');
+    // newPrincessInput.textContent = 
+    // newPrincess.textContent = 'Jasmine';
+    // disneyPrincessList.appendChild(newPrincess);
