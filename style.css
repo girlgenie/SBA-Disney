@@ -12,3 +12,15 @@
 .princess:hover {
     background-color: pink;
 }
+
+#princess-picture {
+    width: 300px;
+    height: auto;
+    padding-left: 10px;
+}
+
+#prince-picture { 
+    width: 300px;
+    height: auto;
+    padding-left: 10px;
+}

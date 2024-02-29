@@ -62,6 +62,8 @@ const unorderedList = document.querySelector('ul')
 unorderedList.appendChild(li)
 })
 
+const princesspic = document.getElementById("princess-pic"); 
+princesspic 
 
 
 // ================== ALL BAD CODE DOESNT WORK BELOW HERE==========================
