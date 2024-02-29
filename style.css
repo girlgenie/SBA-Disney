@@ -4,3 +4,11 @@
     font-size: medium;
 }
 
+.princess {
+    background-color: purple;
+    transition: background-color 0.3 ease;
+}
+
+.princess:hover {
+    background-color: pink;
+}
