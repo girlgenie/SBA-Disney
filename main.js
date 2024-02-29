@@ -43,9 +43,18 @@ document.addEventListener('DOMContentLoaded', function() {
 const btn = document.querySelector('#add-input-btn')
 console.log(btn)
 
+// add event listener
 btn.addEventListener('click', () => {
-    console.log("button clicked!");
+    // console.log("button clicked!");
+
+    // create a list item 
+const li = document.createElement('li');
+const paragraph = document.createElement('p');
+console.log(li,paragraph)
 })
+
+
+
 // ================== ALL BAD CODE DOESNT WORK BELOW HERE==========================
     // Add Jasmine to the list of Disney princesses
     // const disneyPrincessList = document.getElementById('disney-princess');
