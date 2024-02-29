@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 const btn = document.querySelector('#add-input-btn')
-console.log(btn)
+// console.log(btn)
 
 // add event listener
 btn.addEventListener('click', () => {
@@ -50,7 +50,16 @@ btn.addEventListener('click', () => {
     // create a list item 
 const li = document.createElement('li');
 const paragraph = document.createElement('p');
-console.log(li,paragraph)
+// console.log(li,paragraph)
+
+const input = document.querySelector('input');
+console.log(input.value)
+
+// set list item text content to input value 
+li.textContent = input.value
+// append li to ul
+const unorderedList = document.querySelector('ul')
+unorderedList.appendChild(li)
 })
 
 
